@@ -102,7 +102,7 @@ window.onload = function(){
         
         this.draw = function(){
             ctx.save();
-            ctx.fillStyle="#ff0000";
+            ctx.fillStyle="#33cc33";
             for (var i=0 ; i < this.body.length ; i++){
                 drawBlock(ctx,this.body[i]);
             }
@@ -193,7 +193,7 @@ window.onload = function(){
         
         this.draw = function(){
           ctx.save();
-          ctx.fillStyle = "#33cc33";
+          ctx.fillStyle = "#ff0000";
           ctx.beginPath();
           var radius = blockSize/2;
           var x = this.position[0]*blockSize + radius;
